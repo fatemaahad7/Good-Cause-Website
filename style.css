@@ -1,0 +1,194 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.btn-primary {
+    color: white;
+    background-color: crimson;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+
+/*------------ HEADER ------------*/
+.header {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.banner {
+    color: white;
+    text-align: center;
+    padding: 120px 300px;
+}
+.banner h1 {
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+.banner-description {
+    margin-bottom: 30px;
+}
+
+
+/*------------ DONATE SECTION ------------*/
+.donate {
+    margin: 100px 250px;
+    text-align: center;
+}
+.donation-description {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: gray;
+}
+.donation-option {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+.donation-amount {
+    font-size: 24px;
+    font-weight: 800;
+    border: 1px solid white;
+    color: #727272;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+#selected-amount {
+    border: 2px solid crimson;
+    border-radius: 5px;
+    background-color: #f7deda;
+    color: crimson;
+}
+.other-option small {
+    color: darkgray;
+}
+.other-option hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*------------ DONATE PLAN SECTION ------------*/
+.plan {
+    margin: 100px 250px;
+    text-align: center;
+}
+.plan-info {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: gray;
+}
+.package-container {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+.package {
+    text-align: left;
+    padding: 50px 25px;
+    border-radius: 5px;
+}
+.package-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.package-info {
+    font-size: 14px;
+    color: #727272;
+}
+#food {
+    background-color: #c8e7fa;
+}
+#shelter {
+    background-color: #f5d2d8;
+}
+#education {
+    background-color: #c0ffc0;
+}
+
+
+/*------------ BLOG 1,2 SECTION ------------*/
+.blog-1 , .blog-2 {
+    margin: 100px 250px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.blog {
+    padding: 10px;
+}
+.blog p {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.blog-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*------------ CONTACT ------------*/
+.cotact {
+    margin: 100px 250px;
+}
+.details , .mail-me {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.mail-me {
+    height: 200px;
+    width: 50%;
+    background-color: #f5d2d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.mail-me input {
+    border: 0;
+    padding: 14px;
+    width: 30%;
+    background-color: lightgray;
+}
+.mail-me button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/*------------ FOOTER ------------*/
+footer {
+    height: 200px;
+    background-color: #04041b;
+    /* padding: px; */
+}
+.footer {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.fancy-font {
+    color: crimson;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
